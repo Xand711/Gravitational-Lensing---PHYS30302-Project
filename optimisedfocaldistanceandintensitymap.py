@@ -131,7 +131,7 @@ def newtonraphson(z0,dz,tol,maxattempt,N,umax,aperture):
             f"dI = {dI:.3e}, d2I = {d2I:.3e}, znew = {znew/AU:.1f} AU"
         )
 
-        # Check convergence
+        # if in tolerance we're done ig
         if abs(znew - z) < tol:
             z = znew
             history.append((z, intensity(z, N, umax, aperture)))
