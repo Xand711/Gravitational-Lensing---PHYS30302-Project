@@ -17,6 +17,12 @@ Attempting to comment this so u guys understand what im trying to do lol
 Best z value can vary a lot but think thats bc of the monte carlo - w more N would be more accurate but 
 my laptop is ass and i dont want it to explode sorry 
 
+also to be clear about the netwon raph, bc finding max of the intensity, the equation is the 
+derivitive of I(z) = 0, hence the new raph is znew = z - I'/I''
+but bc no formula for I specifically, using central difference formlae which are
+I' = I(z + dz) = I(z-dz)/2dz
+I'' = (I(z+dz) - 2I(z) + I(z-dz))/(dz)^2
+and have chosen a value of dz. 
 """
 # important stuff first!
 import numpy as np
