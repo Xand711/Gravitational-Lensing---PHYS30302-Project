@@ -8,14 +8,13 @@ Created on Thu Mar 19 16:48:27 2026
 """
 Newton Raphson method to work out best distance to reciever intensity wise (on axis so aligned)
 
-Expecting around z = 550AU?  bc of focal length calculations
-
-Also will plot the iteration maybe?
-
+Expecting around z = 550AU?  bc of focal length calculations. or well 550 is the min it should be.. 
 Attempting to comment this so u guys understand what im trying to do lol 
 
 Best z value can vary a lot but think thats bc of the monte carlo - w more N would be more accurate but 
-my laptop is ass and i dont want it to explode sorry 
+my laptop is ass and i dont want it to explode sorry - ok is better with higher max impact paramm (umax) but can get unrealistic.. see codeinfo.pdf
+
++++ assumes the source is coming from far enough away that the rays can be assumed parallel (small angle approx etc)
 
 also to be clear about the netwon raph, bc finding max of the intensity, the equation is the 
 derivitive of I(z) = 0, hence the new raph is znew = z - I'/I''
