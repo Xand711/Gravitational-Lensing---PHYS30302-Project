@@ -144,7 +144,7 @@ dz = 10*AU
 tol = 0.1*AU
 maxattempt = 10
 N = 150000
-umax = 30*Rsun # originally had this as 2, but if u increaqse it it gets more consistent results
+umax = 3*Rsun # originally had this as 2, but if u increaqse it it gets more consistent results
 aperture = 1e9
 
 
