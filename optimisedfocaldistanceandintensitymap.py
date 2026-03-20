@@ -145,9 +145,9 @@ def newtonraphson(z0,dz,tol,maxattempt,N,umax,aperture):
 #ACTUAL CODE STARTS HERE - have vaguely had a fiddle w these params but idk. 
 zopt = 0
 z0guess = 550 * AU
-dz = 10*AU
+dz = 1*AU # priginally had it at 10 but think thats what drove it to high / low extremes 
 tol = 0.1*AU
-maxattempt = 10
+maxattempt = 30
 N = 150000
 umax = 3*Rsun # originally had this as 2, but if u increaqse it it gets more consistent results
 aperture = 1e9
