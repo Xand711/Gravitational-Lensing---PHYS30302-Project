@@ -197,6 +197,8 @@ def intensitymap(x, y, bins, extent, zobs):
 finalz = zopt # from part 1. can test w 550 AU to check works also
 #finalz = 550
 xmap, ymap = rays(N, umax, finalz)
+# i know above is simulating a new set of rays, but bc the overall result is an average of different attempts,
+# i think this makes more sense than generating like 20 different maps? 
 bins = 250
 extent = 2e10
 intensitymap(xmap, ymap, bins, extent, finalz)
