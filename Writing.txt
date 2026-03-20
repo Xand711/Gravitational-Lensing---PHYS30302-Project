@@ -1,0 +1,5 @@
+Gravitational lensing occurs when a massive object, such as a black hole, blocks our line of sight to a light source, for example a distant galaxy. The black hole acts as a 'lens' because its gravity causes light rays to curve around it, so we can still see light from the hidden galaxy. This can be used to identify properties of both the lens and the object being lensed, for example microlensing is used in the search for exoplanets. Another proposed application of gravitational lensing is to use our Sun as a lens to transmit or receive information from extra-terrestrial life.
+
+Magnification/amplification
+
+Einstein predicted focal point in 1936?
