@@ -46,12 +46,12 @@ def rays(N, umax, zobs):
     N, umax, zobs see below (sorry i started w newton raph and worked upwards)
     """
     # r^2 uniform (i think), so r = umax*sqrt(U), where U is uniform(0,1) distribution..?
-    r = umax * np.sqrt(np.random.rand(N)) # making random points 
-    phi = 2 * np.pi * np.random.rand(N) # making random angular distribution - hopefully uniform?
+    r = umax*np.sqrt(np.random.rand(N)) # making random points 
+    phi = 2*np.pi*np.random.rand(N) # making random angular distribution - hopefully uniform?
 
     #cartesian inital positions
-    x0 = r * np.cos(phi) 
-    y0 = r * np.sin(phi)
+    x0 = r*np.cos(phi) 
+    y0 = r*np.sin(phi)
     u = r  # impact parammag
 
     # bending angle around sun for rays 
@@ -59,11 +59,11 @@ def rays(N, umax, zobs):
 
     # deflection towards origin so get alpha along -x and -y directions ACCORDING TO GOOGLE LOL
     # small angle approx allowed bc of large distances yay
-    thetax = -angle * (x0 / u)
-    thetay = -angle * (y0 / u)
+    thetax = -angle*(x0/u)
+    thetay = -angle*(y0/u)
 
     # follow rays z=0->z_obs:
-    x = x0 + thetax * zobs
+    x = x0 + thetax* zobs
     y = y0 + thetay * zobs
 
     return x, y # array of where rays hit observer plane
@@ -116,8 +116,8 @@ def newtonraphson(z0,dz,tol,maxattempt,N,umax,aperture):
         
         
         history.append((z, I0)) # for later teehee
-        dI = (Ihigh - Ilow) / (2 * dz)
-        d2I = (Ihigh - 2 * I0 + Ilow) / (dz**2)
+        dI = (Ihigh-Ilow)/(2*dz)
+        d2I = (Ihigh - 2 * I0 + Ilow)/(dz**2)
 
         if d2I == 0:
             print("#flop bc divide by zero error god save me")
@@ -131,7 +131,7 @@ def newtonraphson(z0,dz,tol,maxattempt,N,umax,aperture):
         )
 
         # if in tolerance we're done ig
-        if abs(znew - z) < tol:
+        if abs(znew-z) < tol:
             z = znew
             history.append((z, intensity(z, N, umax, aperture)))
             print("YIPPEE")
