@@ -57,7 +57,7 @@ def rays(N, umax, zobs):
     # bending angle around sun for rays 
     angle = rayangle(u)
 
-    # deflection towards origin so get alpha along -x and -y directions ACCORDING TO GOOGLE LOL
+    # deflection towards origin so get angle along -x and -y directions ACCORDING TO GOOGLE LOL
     # small angle approx allowed bc of large distances yay
     thetax = -angle*(x0/u)
     thetay = -angle*(y0/u)
