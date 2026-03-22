@@ -1,5 +1,10 @@
+In the classic 1982 film by Steven Spielberg, ET makes his iconic request, ‘ET phone home’. In this poster we will investigate how, without using alien technology, this could have been achieved. We will consider how gravitational lensing, using our Sun as a lens, could amplify signals to enable communication with extra-terrestrial civilisations.
+
 Gravitational lensing occurs when a massive object, such as a black hole, blocks our line of sight to a light source, for example a distant galaxy. The black hole acts as a 'lens' because its gravity causes light rays to curve around it, so we can still see light from the hidden galaxy. This can be used to identify properties of both the lens and the object being lensed, for example microlensing is used in the search for exoplanets. Another proposed application of gravitational lensing is to use our Sun as a lens to transmit or receive information from extra-terrestrial life.
 
 Magnification/amplification
 
 Einstein predicted focal point in 1936?
+
+Conclusion
+Both 2D and 3D models have been used to to explore the feasibility of using our Sun as a gravitational lens. We have demonstrated that in theory, gravitational lensing could be used in the search for extra-terrestrial life. However, we are still many years from having the technology required to send a telescope to the calculated distnace of 550 AU away. The search for extra-terrestrial life is undoubtedly going to require some creative thinking, so gravitational lensing should certainly not be disregarded as a possibility.
