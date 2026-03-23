@@ -1,0 +1,15 @@
+ABSTRACT
+
+In this project we investigated the feasibility of using the Sun as a gravitational lens for intergalactic communication. The Newton–Raphson method and Monte Carlo simulations were utilised to determine the focal length of our lens (the sun) and to model the propagation of a large number of light rays and evaluate the resulting intensity profile. This focal length was optimised with respect to signal intensity and it tells us how far from our sun sources would need to be for us on earth to receive coherent signals (for us to receive to for probe to receive?). We calculated this focal length to be 561AU, consistent with published values [1]. This result suggests that while significant signal enhancement can be achieved from other galaxies, it requires precise alignment and massive distances from the Sun, highlighting the practical limitations of this method. 
+
+[1]- https://arxiv.org/pdf/2002.11871
+
+INTRO
+
+In the 1982 movie “E.T” , everyone's favourite alien phones home to a distant galaxy. In our project we will investigate if this feat is possible using gravitational lenses. We will use our sun as the gravitational lens to amplify and focus signals to test if intergalactic communication is possible. According to general relativity, a massive object can bend the path of light, causing radiation passing near it to be deflected. Under suitable alignment conditions, this effect can focus and amplify electromagnetic signals, acting analogously to a lens [2]. This is gravitational lensing. To investigate this we use numerical methods. The Newton–Raphson method is applied to determine the focal distance of the lens, while Monte Carlo simulations are used to model the propagation of a large number of light rays and evaluate the resulting intensity profile. 
+
+Initial mathematical attempts? 
+
+Diagrams?
+
+[2]- https://www.physik.uzh.ch/dam/jcr:09c12eef-befd-4837-87c5-7dce8fbbfff0/Gravitational_Lensing.pdf
